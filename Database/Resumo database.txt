@@ -1,0 +1,23 @@
+O conjunto de dados utilizado neste projeto tem como objetivo auxiliar na predição da ocorrência de diabetes em pacientes, com base em informações médicas e características físicas. Esse dataset é amplamente utilizado em estudos de Machine Learning e análise de dados na área da saúde.
+
+A base de dados contém registros de pacientes do sexo feminino de origem indígena Pima, com idade superior a 21 anos. Cada linha representa um paciente, enquanto cada coluna representa uma variável clínica relevante para a análise.
+
+O dataset possui as seguintes variáveis:
+
+Pregnancies: número de vezes que a paciente esteve grávida
+Glucose: concentração de glicose no sangue
+BloodPressure: pressão arterial diastólica (mm Hg)
+SkinThickness: espessura da pele (mm)
+Insulin: nível de insulina no sangue (mu U/ml)
+BMI: índice de massa corporal (peso em kg/(altura em m)²)
+DiabetesPedigreeFunction: função que indica predisposição genética ao diabetes
+Age: idade da paciente
+Outcome: variável alvo, onde:
+0 → não possui diabetes
+1 → possui diabetes
+
+O dataset contém aproximadamente 768 registros e 9 atributos no total, sendo amplamente utilizado para tarefas de classificação binária.
+
+A variável Glucose é considerada uma das mais relevantes para a predição da doença, apresentando forte correlação com o diagnóstico de diabetes. Além disso, fatores como idade, índice de massa corporal (BMI) e histórico familiar também contribuem significativamente para o modelo preditivo.
+
+Esse conjunto de dados não possui valores nulos explícitos, porém alguns atributos apresentam valores iguais a zero que podem indicar ausência de medição ou dados inconsistentes, sendo um ponto importante a ser considerado durante a análise exploratória.
